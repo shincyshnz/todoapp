@@ -1,0 +1,300 @@
+CRITICAL - 2022-12-08 00:49:32 --> Undefined variable $validation
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(39): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 00:58:37 --> Undefined variable $validation
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(39): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 02:00:27 --> Undefined array key "POST"
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:07:15 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:09:02 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:12:43 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:13:25 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:13:27 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:13:42 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:14:28 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:14:31 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:19:09 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:19:10 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:20:38 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:20:43 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:22:40 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:23:31 --> Undefined variable $request
+#0 /var/www/html/ToDoApp/app/Controllers/Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-08 02:39:15 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/ToDoApp/app/Controllers/Home.php(46): view()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#4 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-08 02:43:50 --> Undefined variable $val
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(46): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 02:54:09 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/ToDoApp/app/Controllers/Home.php(46): view()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#4 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-08 03:31:04 --> syntax error, unexpected token "endif", expecting end of file
+#0 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/ToDoApp/app/Controllers/Home.php(46): view()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#4 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-08 03:34:01 --> Call to undefined method App\Controllers\Home::getVar()
+#0 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#1 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-08 03:44:18 --> Column 'name' cannot be null
+CRITICAL - 2022-12-08 03:44:18 --> Column 'name' cannot be null
+#0 /var/www/html/ToDoApp/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/ToDoApp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ToDoApp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ToDoApp/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ToDoApp/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ToDoApp/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ToDoApp/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ToDoApp/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /var/www/html/ToDoApp/app/Controllers/Home.php(40): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#10 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-08 04:42:11 --> Array to string conversion
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(51): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 04:42:36 --> Call to undefined function _r()
+#0 /var/www/html/ToDoApp/system/View/View.php(210): include()
+#1 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/html/ToDoApp/app/Controllers/Home.php(51): view()
+#4 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-08 04:47:24 --> Attempt to read property "name" on array
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(51): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 04:47:56 --> Attempt to read property "name" on array
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(51): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 04:48:07 --> Attempt to read property "name" on array
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(51): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 04:49:12 --> Attempt to read property "name" on array
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(51): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 04:49:14 --> Attempt to read property "name" on array
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(51): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-08 04:49:49 --> Attempt to read property "description" on array
+#0 /var/www/html/ToDoApp/app/Views/pages/todo.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ToDoApp/system/View/View.php(210): include('...')
+#2 /var/www/html/ToDoApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/ToDoApp/app/Controllers/Home.php(51): view()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#6 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-08 04:53:39 --> Duplicate entry '0' for key 'tasks.PRIMARY'
+CRITICAL - 2022-12-08 04:53:39 --> Duplicate entry '0' for key 'tasks.PRIMARY'
+#0 /var/www/html/ToDoApp/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/ToDoApp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ToDoApp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ToDoApp/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ToDoApp/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ToDoApp/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ToDoApp/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ToDoApp/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /var/www/html/ToDoApp/app/Controllers/Home.php(40): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->pages()
+#10 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-08 05:06:55 --> Duplicate entry '0' for key 'tasks.PRIMARY'
+CRITICAL - 2022-12-08 23:04:08 --> Invalid file: /.php
+#0 /var/www/html/ToDoApp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/ToDoApp/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/ToDoApp/app/Controllers/Home.php(50): view()
+#3 /var/www/html/ToDoApp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/html/ToDoApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ToDoApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ToDoApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
